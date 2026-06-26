@@ -11,11 +11,11 @@ function App() {
       <img className='cod' src={cof} alt="" />
       <div className='boss'>
         <div className='inputs'>
-          <input type="text" placeholder='Name' />
-          <input type="text" placeholder='Email'/>
-          <input type="text" placeholder='Password'/>
-          <input type="text" placeholder='Phone'/>
-          <button className='submit'>Press for download</button>
+          <input type="text" placeholder='  Name' />
+          <input type="email" placeholder='  Email'/>
+          <input type="password" placeholder='  Password'/>
+          <input type="text" placeholder='  Phone'/>
+          <button className='submit'>Press for login</button>
         </div>
       </div>
     </>

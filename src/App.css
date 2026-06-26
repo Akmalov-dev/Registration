@@ -9,6 +9,7 @@ input{
     background-color: transparent;
     border: 2px solid;
     border-color: green;
+    color: green;
 }
 .cod{
     width: 1440px;
@@ -29,11 +30,18 @@ input{
     left: 80px;
 }
 .submit{
-    color: white;
     width: 300px;
     height: 45px;
     background-color: transparent;
-    border: 3px solid green;
-    color: rgb(0, 166, 0);
+    border: 2px solid white;
+    color: white;
     margin-left: 57px;
+    border-radius: 4px;
+}
+.submit:hover{
+    color: green;
+    border: 2px solid green;
+}
+.submit:active{
+    opacity: 60%;
 }
