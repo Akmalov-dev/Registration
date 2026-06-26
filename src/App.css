@@ -45,3 +45,17 @@ input{
 .submit:active{
     opacity: 60%;
 }
+@media (max-width: 480px) {
+  .boss {
+    padding: 10px; 
+  }
+
+  .inputs {
+    padding: 20px 15px; 
+    gap: 12px;
+  }
+  
+  .inputs input, .submit {
+    padding: 14px; 
+  }
+}
