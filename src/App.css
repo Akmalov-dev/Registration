@@ -26,3 +26,8 @@ input{
     top: 200px;
     left: 850px;
 }
+.submit{
+    color: white;
+    width: 400px;
+    height: 45px;
+}
