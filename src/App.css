@@ -40,7 +40,7 @@ input{
 }
 .submit:hover{
     color: green;
-    border: 2px solid green;
+    border: 2px solid rgb(0, 159, 0);
 }
 .submit:active{
     opacity: 60%;
